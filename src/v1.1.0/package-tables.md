@@ -15,6 +15,10 @@ This should be the same as the filename without the `.lua` extension.
 
 A description of the contents of the package table. Can be single-line or multiline.
 
+### `homepage`
+
+A link to the program's homepage, if it has one.
+
 ### `maintainer`
 
 The name or pseudonym of the maintainer of the package table.
