@@ -10,4 +10,4 @@
 	- [Package tables](indev/package-tables.md)
 	- [Package providers](indev/package-providers.md)
 	- [Package remotes](indev/package-remotes.md)
-	- [Standardized paths](v1.0.0/standardized-paths.md)
+	- [Standardized paths](indev/standardized-paths.md)
