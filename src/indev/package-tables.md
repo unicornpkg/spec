@@ -25,11 +25,19 @@ The name or pseudonym of the maintainer of the package table.
 
 ### `licensing`
 
-The license of the package and its contents. Should be a [valid OSI identifier](https://opensource.org/licenses/alphabetical), or `CCPL` if the license is the ComputerCraft Public License.
+The license of the package's contents, expressed as an [SPDX License Expression](https://spdx.github.io/spdx-spec/v3.0.1/annexes/spdx-license-expressions/) as defined in the SPDX Specification, v3.0.1.
+
+Package definitions MAY be a different license from the license of the package's contents.
+
+#### SPDX extensions
+
+Packages MAY use `CCPL` and `MMPL` in license expressions to refer to the ComputerCraft Public License and Minecraft Mod Public License, respectively. New projects SHOULD refrain from using these licenses. If `CCPL` or `MMPL` ever become defined in the SPDX License List, those definitions MUST take precedence.
+
+Other than the exceptions above, implementations SHOULD avoid other extensions to the SPDX License List.
 
 ### `version`
 
-The version of a package. If a project does not have versioning, do not fill out this field.
+The version of a package. If a project does not have versioning, this value SHOULD be set to `nil`.
 
 This field expects a valid [SemVer](https://semver.org) string, without the `v` prefix.
 
