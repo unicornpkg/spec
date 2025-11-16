@@ -25,7 +25,7 @@ A link to the program's homepage, if it has one. If set, this MUST be an [absolu
 
 The name or pseudonym of the maintainer of the package table. This MUST be expressed as a string, if set.
 
-### `licensing`
+### `license`
 
 The license of the package's contents. This MUST be expressed as an [SPDX License Expression](https://spdx.github.io/spdx-spec/v3.0.1/annexes/spdx-license-expressions/) as defined in the SPDX Specification, v3.0.1.
 
